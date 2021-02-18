@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BooK Website</title>
+</head>
+<body>
+
+
+	<div class="box">
+		<div class="content">
+			<img src="2.jpeg" alt="Harry Potter" width="200px;" height="200px;">
+		<h1>Harry Potter</h1>
+
+		<p>DESCRIPTION:-
+			Harry James Potter is a fictional character and the titular protagonist in J. K. Rowling's series of eponymous novels. The majority of the books' plot covers seven years in the life of the orphan Harry, who, on his eleventh birthday, learns he is a wizard.....
+		</p>
+		
+		<a href="b1.pdf" download="Harry Potter">View & Download</a>
+	</div>
+	</div>
+	<div class="box">
+		<div class="content">
+			<img src="3.jpg" alt="Twilight" width="200px;" height="200px;">
+		<h1>Twilight</h1>
+		<p>DESCRIPTION:-
+The first look at the philosophy behind Stephenie Meyer's bestselling Twilight series
+Bella and Edward, and their family and friends, have faced countless dangers and philosophical dilemmas in Stephenie Meyer's Twilight novels....
+		</p>
+		<a href="b2.pdf" download="Twilight">View & Download</a>
+	</div>
+	</div>
+	<div class="box">
+		<div class="content">
+			<img src="1book.jpg" alt="Revolution-2020" width="200px;" height="200px;">
+		<h1>Revolution-2020</h1>
+		<p>Description:-Revolution 2020 is a story about 3 childhood friends Gopal, Raghav and Aarti. They have their own ambitions. Aarti wanted to become an air hostess.
+		</p>
+		<a href="b3.pdf" download="Revolution-2020">View & Download"></a>
+	</div>
+	</div>
+
+	<div class="box">
+		<div class="content">
+			<img src="contact.jpg" alt="Contact-us" width="200px;" height="200px;">
+		<h1>Contact US</h1>
+		<p>ANUJ SHARMA 
+		</p>
+		<p>EMAIL ID:- imanujsharma999@gmail.com
+		</p>
+	</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+<style>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #060c21;
+	font-family: 'Poppins', sans-serif;
+
+}
+.box{
+	position: relative;
+	width: 500px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #060c21;
+}
+.box:before
+{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	background: #fff;
+	z-index: -2;
+	filter: blur(40px);
+}
+.box:before,
+.box:after
+{
+	background: linear-gradient(235deg,#89ff00,#060c21,#00bcd4);
+}
+
+.content{
+	padding: 20px;
+	box-sizing: border-box;
+	color: #fff;
+}
+
+</style>
