@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style1.css">
+   
+  
+</head>
+<body>
+       
+    <nav class="nav">
+        <h1 style="width: 50%; padding-left:170px;color: silver;">Feedback</h1>
+        <h1 style="text-align: right; padding-right:10px;color: silver;">Your Feedback is Important</h1>
+    </nav>
+     
+    <main>
+     
+        <div class="form" id = "form">
+          <br/> <br/> 
+            <h1>
+                Please Enter Your Feedback
+            </h1>
+            <br/>
+            <form id="formData">
+                <div class="nam" >
+                  <label  for="fname" class="col-sm-2 col-form-label">First Name</label>
+                  <div class="col-sm-10">
+                    <input style="margin-left: 50px"type="text" class="form-control" id="fname" placeholder="First Name">
+                  </div>
+                </div>
+                <div class="nam">
+                  <label  for="mname" class="col-sm-2 col-form-label">Middle Name</label>
+                  <div class="col-sm-10">
+                    <input style="width: 90%;"type="text" class="form-control" id="mname" placeholder="Middle Name">
+                  </div>
+                </div>
+                <div class="nam">
+                    <label for="lname" class="col-sm-2 col-form-label">Last Name</label>
+                    <div class="col-sm-10">
+                      <input style="margin-left: 50px"type="text" class="form-control" id="lname" placeholder="Last Name">
+                    </div>
+                  </div>
+                  <div class="nam">
+                    <label for="sugg" class="col-sm-2 col-form-label">Suggestions</label>
+                    <div class="col-sm-10">
+                      <input style="margin-left: 40px ;width:85%" type="text" class="form-control" id="sugg" placeholder="Your Suggestions">
+                    </div>
+                  </div>
+                  <br/><br/>
+                <fieldset class="form-group">
+                  <div class="row" style="border: 0ch;">
+                    
+                    <legend style="margin-left: 23%;" class="gender"><b>Gender</b></legend>
+                    <div class="geni">
+                     
+                      <div class="form-check">
+                        <label class="form-check-label" for="Male">Male</label>
+                        <input style="margin-left: 2%;width:20%"class="form-check-input Gender" type="radio"  name = "gender" id="Male" value="Male" checked>
+                       
+                      </div>
+                      
+                      <div class="form-check">
+                        <label class="form-check-label" for="Female">Female  </label>   
+                        <input style="margin-left: 0%;width:20%"class="form-check-input Gender" type="radio"  name = "gender" id="female" value="Female">
+                     
+                      </div>
+
+                    </div>
+                  </div>
+                </fieldset>
+                <br/><br/><br/>
+                <div class="btn">
+                  <div class="col-sm-10">
+                    <button type="submit" class="button" onclick="validate();return false;"style="margin-left:150px; padding:5px 20px; font-size:15px;">Comment</button>
+                    <button type="submit" class="button" onclick="reset()"style=" padding:5px 20px; margin-left:20px;  font-size:15px;">Reset</button>
+                    
+                </div>
+                </div>
+              </form>
+        </div>
+        <div class="display" >
+          <p style = "padding-top: 20px; padding-left: 20px;" id = "display"></p>
+        </div>
+
+
+
+
+    </main>
+    
+
+
+
+    <footer class="footer">
+        <p>Hemant Soni@Copyright 2021</p>
+    </footer>
+
+
+    <script src="script1.js" ></script>
+</body>
+</html>
