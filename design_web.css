@@ -1,0 +1,103 @@
+footer
+{
+    text-align: center;
+    text-decoration-color: black;
+    background-color: cornsilk;
+}
+.intro1
+{
+    
+    text-decoration-color:black;
+    font-family: cursive;
+    display: flex;
+    background-color:cadetblue;
+    font-size: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.intro1 img
+{
+    border-radius: 50%;
+    border-image-width: 20%;
+}
+.intro2
+{
+    
+    text-decoration-color:black;
+    font-family: cursive;
+    display: flex;
+    background-color:darkturquoise;
+}
+nav a
+{
+    text-decoration: none;
+    margin:20px;
+}
+
+#clock 
+{
+    font-size: 28px;
+    width: 28px;
+    margin: 2px;
+}
+.odd
+{
+    background-color: antiquewhite;
+    font-family: cursive;
+}
+.even
+{
+    background-color: aquamarine;
+    font-family: cursive;
+}
+.even ul,.odd ul
+{
+    list-style: circle;
+}
+.books
+{
+    display:flex;
+}
+.books h1
+{
+    text-align: center;
+    text-decoration: underline;
+}
+.notes_even
+{
+    background-color:coral;
+    font-family: cursive;
+}
+notes_even h1
+{
+   text-align: center;
+    text-decoration:underline;
+    font-family:fantasy;
+}
+.notes_odd
+{
+    background-color:chartreuse;
+    font-family: cursive;
+}
+.back
+{
+    background-color: cornflowerblue;
+}
+.teach1 img, .teach2 img
+{
+    border-image-width: 40%;
+}
+.teach1
+{
+    background-color: darkgray;
+}
+.teach2
+{
+    background-color: darkseagreen;
+}
+.notice
+{
+    background-color:coral;
+    font-family: cursive;
+    font-size: 12px;
+}
