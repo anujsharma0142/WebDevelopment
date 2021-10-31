@@ -1,0 +1,99 @@
+body,html{
+    height: 100%;
+}
+.book_img{
+    background-image: url("book5.png");
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.book{ background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+
+}
+
+    .book ul{
+        display: flex;
+    }
+    .book ul li{
+        list-style: none;
+        align-items: center;
+        margin: 20px;
+    }
+    .book ul li img{
+        border-radius: 10%;
+    }
+    .book ul li a{
+        margin: 20px;
+        display: block;
+       width: 20px;
+       
+text-align: right;
+transition: 0.6s;
+    }
+    .book ul li a:hover{
+        transform: translate(0,-15px);
+    }
+    .book1{
+        background-color: cyan;
+    }
+    .book1 p
+    {
+        font-size:x-large;
+    }
+    .habbit
+    {
+        display: flex;
+        font-size:  large;
+    }
+    .habbit ul li{
+        list-style: decimal;
+    }
+    #stephan
+    {
+   font-size: larger;
+   font-style: italic;
+    }
+    #Author
+    {
+        font-size: xx-large;
+    }
+    .last ul li a{
+        list-style: none;
+        text-decoration: none;
+        font-size: large;
+    }
+   .maluha2
+   {   
+       display: flex;
+       font-size: large;
+    
+   }
+   .last li a{
+      text-decoration: none;
+      list-style: disc;
+   }
+   .hc2{
+       display: flex;
+       font-size: large;
+   }
+   .ds2{
+       display: flex;
+       font-size: large;
+   }
+   .clang2{
+       display: flex;
+       font-size: large;
+   }
